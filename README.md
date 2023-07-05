@@ -1,6 +1,6 @@
 # Experimental-cs
 This repo was created to document the experimental case study carried out in the short paper submitted for Deep Learning Indaba, 2023.
-Cc. @maryadewunmi @https://github.com/isongjosiah Groupname: @caresAi
+Cc. @[Mary Adewunmi](https://github.com/)maryadewunmi @[Josiah Isong](https://github.com/isongjosiah) Groupname: [caresAi](https://github.com/caresAi)
 
 ## Short paper Title - Advancements and Applications of AI in Drug Discovery: A Comprehensive Review and Experimental Case Study
 For the experimental case study, an already-built model by [Beker et al., 2020.](https://github.com/Nanotekton/drugability/tree/v0.1) incorporated into the [Ersilia model hub](https://github.com/ersilia-os/eos9sa2) was used to perform the case study. 
