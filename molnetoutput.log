@@ -1,0 +1,90 @@
+18:09:51 | DEBUG    | Getting session from /home/zainab_ik/eos/session.json
+18:09:51 | DEBUG    | Getting session from /home/zainab_ik/eos/session.json
+18:09:52 | DEBUG    | Is fetched: True
+18:09:52 | DEBUG    | Schema available in /home/zainab_ik/eos/dest/eos9sa2/api_schema.json
+18:09:52 | DEBUG    | Setting AutoService for eos9sa2
+18:09:52 | INFO     | Service class provided
+18:09:53 | DEBUG    | Reading card from eos9sa2
+18:09:53 | DEBUG    | Reading shape from eos9sa2
+18:09:53 | DEBUG    | Input Shape: Single
+18:09:53 | DEBUG    | Input type is: compound
+18:09:53 | DEBUG    | Input shape is: Single
+18:09:53 | DEBUG    | Importing module: .types.compound
+18:09:53 | DEBUG    | Checking RDKIT and other requirements necessary for compound inputs
+18:09:53 | DEBUG    | InputShapeSingle shape: Single
+18:09:53 | DEBUG    | Stopping sniffer for finding delimiter
+18:09:53 | DEBUG    | Expected number: 1
+18:09:53 | DEBUG    | Entity is list: False
+18:09:53 | DEBUG    | Stopping sniffer for resolving column types
+18:09:53 | DEBUG    | Has header True
+18:09:53 | DEBUG    | Schema {'input': [1], 'key': None}
+18:09:53 | DEBUG    | Standardizing input single
+18:09:53 | DEBUG    | Reading standard file from /tmp/ersilia-9xe2n2a4/standard_input_file.csv
+18:09:53 | DEBUG    | File has 643 lines
+18:09:53 | DEBUG    | No file splitting necessary!
+18:09:53 | DEBUG    | Reading card from eos9sa2
+18:09:53 | DEBUG    | Reading shape from eos9sa2
+18:09:53 | DEBUG    | Input Shape: Single
+18:09:53 | DEBUG    | Input type is: compound
+18:09:53 | DEBUG    | Input shape is: Single
+18:09:53 | DEBUG    | Importing module: .types.compound
+18:09:53 | DEBUG    | Checking RDKIT and other requirements necessary for compound inputs
+18:09:53 | DEBUG    | InputShapeSingle shape: Single
+18:09:53 | DEBUG    | API eos9sa2:run initialized at URL http://127.0.0.1:35369
+18:09:53 | DEBUG    | Schema available in /home/zainab_ik/eos/dest/eos9sa2/api_schema.json
+18:09:53 | DEBUG    | Posting to run
+18:09:53 | DEBUG    | Batch size 100
+18:09:53 | DEBUG    | Stopping sniffer for finding delimiter
+18:09:53 | DEBUG    | Expected number: 1
+18:09:53 | DEBUG    | Entity is list: False
+18:09:53 | DEBUG    | Stopping sniffer for resolving column types
+18:09:53 | DEBUG    | Has header True
+18:09:53 | DEBUG    | Schema {'input': [1], 'key': None}
+18:09:53 | DEBUG    | Standardizing input single
+18:09:53 | DEBUG    | Reading standard file from /tmp/ersilia-krd8xw9k/standard_input_file.csv
+18:09:53 | DEBUG    | Schema available in /home/zainab_ik/eos/dest/eos9sa2/api_schema.json
+18:09:53 | DEBUG    | Checking for already available calculations in the data lake
+18:09:54 | DEBUG    | Inspecting 0...
+18:09:54 | DEBUG    | Inspecting 100...
+18:09:54 | DEBUG    | Inspecting 200...
+18:09:54 | DEBUG    | Inspecting 300...
+18:09:54 | DEBUG    | Inspecting 400...
+18:09:54 | DEBUG    | Inspecting 500...
+18:09:54 | DEBUG    | Inspecting 600...
+18:09:54 | DEBUG    | Calculating using model eos9sa2
+18:09:54 | DEBUG    | Saving in /tmp/ersilia-gzxyns30/todo_output.json
+18:09:54 | DEBUG    | Stopping sniffer for finding delimiter
+18:09:54 | DEBUG    | Expected number: 1
+18:09:54 | DEBUG    | Entity is list: False
+18:09:54 | DEBUG    | Stopping sniffer for resolving column types
+18:09:54 | DEBUG    | Has header False
+18:09:54 | DEBUG    | Schema {'input': [2], 'key': [1]}
+18:09:54 | DEBUG    | Standardizing input single
+18:09:54 | DEBUG    | Reading standard file from /tmp/ersilia-7rdlqxoj/standard_input_file.csv
+18:10:00 | DEBUG    | Status code: 200
+18:10:00 | DEBUG    | Working on output: /tmp/ersilia-c2e2dndn/todo_output-chunk-0.json
+18:10:00 | DEBUG    | Schema available in /home/zainab_ik/eos/dest/eos9sa2/api_schema.json
+18:10:06 | DEBUG    | Status code: 200
+18:10:06 | DEBUG    | Working on output: /tmp/ersilia-c2e2dndn/todo_output-chunk-1.json
+18:10:11 | DEBUG    | Status code: 200
+18:10:11 | DEBUG    | Working on output: /tmp/ersilia-c2e2dndn/todo_output-chunk-2.json
+18:10:17 | DEBUG    | Status code: 200
+18:10:17 | DEBUG    | Working on output: /tmp/ersilia-c2e2dndn/todo_output-chunk-3.json
+18:10:23 | DEBUG    | Status code: 200
+18:10:23 | DEBUG    | Working on output: /tmp/ersilia-c2e2dndn/todo_output-chunk-4.json
+18:10:29 | DEBUG    | Status code: 200
+18:10:29 | DEBUG    | Working on output: /tmp/ersilia-c2e2dndn/todo_output-chunk-5.json
+18:10:34 | DEBUG    | Status code: 200
+18:10:34 | DEBUG    | Working on output: /tmp/ersilia-c2e2dndn/todo_output-chunk-6.json
+18:10:34 | DEBUG    | Merging 7 files into /tmp/ersilia-gzxyns30/todo_output.json
+18:10:34 | DEBUG    | Saving calculations in the lake
+18:10:34 | DEBUG    | Schema available in /home/zainab_ik/eos/dest/eos9sa2/api_schema.json
+18:10:37 | DEBUG    | Data: outcome
+18:10:37 | DEBUG    | Values: [0.8079875707626343]
+18:10:37 | DEBUG    | Pure datatype: numeric_array
+18:10:37 | DEBUG    | Rearranging and returning
+18:10:37 | DEBUG    | Done with unique posting
+18:10:39 | DEBUG    | Data: outcome
+18:10:39 | DEBUG    | Values: [0.8079875707626343]
+18:10:39 | DEBUG    | Pure datatype: numeric_array
+molnetOutput.csv
