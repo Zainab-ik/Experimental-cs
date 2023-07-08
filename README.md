@@ -8,6 +8,10 @@ This model predicts the drug-likeness of a chemical compound. In normal research
 To test this model, our benchmark dataset [test molecules](https://moleculenet.org/datasets-1) was extracted from the [MoleculeNet](https://moleculenet.org/). The **drug-likeness** of the *test molecules* was generated with the **druggability model**.
 This case study is more of an ML model implementation in a drug discovery pipeline. 
 
+### Software used
+Operating system Ubuntu; Ersilia only works well on CLI
+Microsoft Excel to view your dataset and results.
+
 ### References
 1. Beker, W., Wołos, A., Szymkuć, S., & Grzybowski, B. A. (2020). Minimal-uncertainty prediction of general drug-likeness based on Bayesian neural networks. Nature Machine Intelligence, 2(8), 457-465. https://doi.org/10.1038/s42256-020-0209-y
 2. Turon, G., Duran-Frigola, M. (2022). Ersilia Model Hub: a repository of AI/ML Models for neglected tropical diseases.
