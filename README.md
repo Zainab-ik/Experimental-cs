@@ -9,8 +9,8 @@ To test this model, our benchmark dataset [test molecules](https://moleculenet.o
 This case study is more of an ML model implementation in a drug discovery pipeline. 
 
 ### Software used
-Operating system Ubuntu; Ersilia only works well on CLI
-Microsoft Excel to view your dataset and results.
+1. Operating system Ubuntu; Ersilia only works well on CLI
+2. Microsoft Excel to view your dataset and results.
 
 ### References
 1. Beker, W., Wołos, A., Szymkuć, S., & Grzybowski, B. A. (2020). Minimal-uncertainty prediction of general drug-likeness based on Bayesian neural networks. Nature Machine Intelligence, 2(8), 457-465. https://doi.org/10.1038/s42256-020-0209-y
