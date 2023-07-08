@@ -1,0 +1,17 @@
+Dependencies to Install
+Conda
+Python
+Github CLI
+GitHub LFS
+Create a conda environment for Ersilia. 
+
+
+#Step 1
+Install Ersilia Model Hub
+
+#Step 2
+call the model. In this case, the Drug-likeness model (eos9sa2)
+with the command; Fetch and Serve
+
+#Step 3
+Run your prediction with the preferred dataset using RUN command.
